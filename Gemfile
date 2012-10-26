@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'sqlite3'
+gem 'taps'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
@@ -23,3 +24,4 @@ gem "simple_form", ">= 2.0.4"
 gem "google_visualr", ">= 2.1.2"
 gem "jquery-datatables-rails", ">= 1.11.1"
 gem "quiet_assets", ">= 1.0.1", :group => :development
+
